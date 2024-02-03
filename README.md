@@ -1,4 +1,4 @@
-# Tutorial Flutter
+# Tutorial Flutter Web
 
 A new Flutter project.
 
