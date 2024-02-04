@@ -55,14 +55,10 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
-            Image.network(
-              'https://www.google.com/url?sa=i&url=https%3A%2F%2Fdocodoor.co.jp%2Fstaffblog%2Fproper-layout%2F&psig=AOvVaw2rrPXW4YumjY47sx0zwqiU&ust=1707121215248000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCSgp-gkYQDFQAAAAAdAAAAABAE',
-              errorBuilder: (c, o, s) {
-                return const Icon(
-                  Icons.error,
-                  color: Colors.red,
-                );
-              },
+            Image.asset(
+              'assets/ryota.webp',
+              width: 200,
+              height: 100,
             ),
           ],
         ),
