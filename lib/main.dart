@@ -51,14 +51,19 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text(
               'ボタンをクリックした回数',
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
-            Image.asset(
-              'assets/ryota.webp',
-              width: 200,
-              height: 100,
+            ColoredBox(
+                color: Colors.red,
+                child: Text(
+                  '$_counter',
+                  style: Theme.of(context).textTheme.headline4,
+                )),
+            Padding(
+              padding: const EdgeInsets.all(100),
+              child: Image.asset(
+                'assets/ryota.webp',
+                width: 200,
+                height: 100,
+              ),
             ),
           ],
         ),
