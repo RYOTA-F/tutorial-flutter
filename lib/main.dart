@@ -40,6 +40,8 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor:
+          _counter != 0 && _counter % 4 == 0 ? Colors.yellow : Colors.blue,
       appBar: AppBar(
         title: Text(widget.title),
         backgroundColor: Colors.blue,
